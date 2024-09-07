@@ -1,0 +1,18 @@
+Projects:
+
+RTU-HPR:
+1) 2021: FC VIP 1, BS, RS
+2) 2022: FC SWIFT - Kalman Filtering, GS, Camera
+3) 2023: Reaction Wheel
+
+Research:
+1) Bark Beetle Detection in Latvia + (NIR Camera)
+2) CubeSat Power Simulations
+
+Applied Physics:
+1) Regen Solver
+
+Other:
+1) CanSat
+2) European Space Camp
+*) Tutorio?

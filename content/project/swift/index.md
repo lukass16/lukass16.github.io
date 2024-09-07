@@ -1,41 +1,53 @@
 ---
-title: Flight Computer - SWIFT
-summary: Electronics Programming and Testing for second rocket of RTU HPR.
+title: Flight Computer SWIFT
+summary: Electronics programming and testing for the second rocket launch campaign of Riga Technical University rocketry team.
 tags:
   - SW
-date: '2021-01-01T00:00:00Z'
+date: '2022-12-01T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
 
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: SWIFT rocket before launch
   focal_point: Smart
 
 links:
-  - icon: twitter
+  - icon: github
     icon_pack: fab
-    name: Follow
-    url: https://twitter.com/georgecushen
+    name: Code
+    url: https://github.com/lukass16/VIP-SPACE-2022
 url_code: ''
 url_pdf: ''
 url_slides: ''
 url_video: ''
 
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides: example
 ---
+The **second fully student-developed rocket** of the Riga Technical University High Power Rocketry Team (RTU HPR) aimed to reach a target altitude of 1.6 km. Other goals included using a dual deployment sequence and demonstrating and testing self-developed components in flight.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+The avionics team  developed a custom flight computer (FC), as well as a new base station (BS), and separate camera module (CAM). In my position of avionics team lead, I was mainly responsible for design and flight planning, electronics testing, and writing all the software for FC as well as other components. The rocket was launched in November 2022 and was safely recovered after achieving an apogee of 1930 m, and a top speed of 1006 km/h. Here is a video from the launch:
 
-Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.
+{{< youtube cE6f3ft5kpY >}} <br>
 
-Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.
+Among other things the **development of the FC** included:
+- creating a 2 thread **state machine** code architecture
+- writing and testing a **Kalman filter** for apogee detection
+- communicating with the ground via **LoRa**
+- **storing flight data**
 
-Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.
+Code developed for the FC, RS, and CAM is available on the 2022 Avionics Team [Github Folder](https://github.com/lukass16/VIP-SPACE-2022), as well as a full *.pdf* file with the code schematic can be viewed {{< staticref "uploads/swiftschematic.pdf" "newtab" >}}here{{< /staticref >}}. 
 
-Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.
+Some data from the flight is visualized below:
+
+![Altitude](/uploads/images/swift/altitude.png)
+
+![GPS](/uploads/images/swift/gps.png)
+
+![General Data](/uploads/images/swift/data.png)
+
+
+Finally, here is an image of the FC PCB, and RTU HPR 2022 team.
+
+![FC](/uploads/images/swift/FC.jpg)
+
+![team](/uploads/images/swift/team.jpg)
