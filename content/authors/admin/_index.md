@@ -18,7 +18,7 @@ status:
 #  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Interested in applied physics, astronautics, and mechanical engineering.
+bio: Interested in applied physics, engineering, space and climate sciences.
 
 #interests:
 #- Artificial Intelligence
@@ -66,6 +66,6 @@ social:
 #email: ""
 ---
 
-I am an undergraduate student at Yale University (but am originally from Riga, Latvia). My main interests relate to applied physics and engineering - specifically with applications to space sciences. 🛰️ I am involved in and organize various STEM and space-related projects nationally and internationally.
+I am an undergraduate student at Yale University (but am originally from Riga, Latvia). My main interests relate to applied physics and engineering - specifically with applications to space and climate sciences. 🛰️🌎 I am involved in and organize various STEM-related projects nationally and internationally.
 
-{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} my CV as a PDF.
+{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}View{{< /staticref >}} my CV as a PDF.
