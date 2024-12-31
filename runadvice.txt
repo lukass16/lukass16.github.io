@@ -1,0 +1,9 @@
+Requirements:
+1) Hugo (install video: https://youtu.be/8BrADPJgA-4?si=-8Pxg-VmjTCcqcT8), install extended version (probably AMD, can check your system with "echo %PROCESSOR_ARCHITECTURE%")
+2) Go (install)
+
+Running:
+1) Run page in dev mode with: "hugo server"
+
+Debugging:
+1) ChatGPT can be super helpful (especially if hugo-the language has changed and you don't know an error)

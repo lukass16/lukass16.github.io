@@ -9,14 +9,14 @@ date: '2024-10-01T00:00:00Z'
 external_link: ''
 
 image:
-  caption: Regenerative Cooling Solver Output
+  caption: 
   focal_point: Smart
 
 links:
   - icon: github
     icon_pack: fab
     name: Code
-    url: https://github.com/Project-Liquid/TheRocket/tree/main/RegenSolver
+    url: https://github.com/iangill11/MLuSHrooM
 url_code: ''
 url_pdf: ''
 url_slides: ''
@@ -30,16 +30,11 @@ url_video: ''
 slides: example
 ---
 
-The 2023-2024 [Yale Project Liquid Team](https://yaleaerospace.org/main/project-liquid) aimed to develop a liquid-propellant rocket. As part of the Propulsion team worked on developing the regeneratively-cooled Nitrous Oxide-Ethane liquid rocket engine. 
+As part of final project for the Scientific Machine Learning (S&DS 689) class at Yale University, worked on a machine learning model to more efficiently simulate plasma turbulence.
 
-My main focus was reviewing and revamping the methodology used by the team to size the engine.
+Full Writeup/Paper: {{< staticref "uploads/documents/gait/final.pdf" "newtab" >}}Here{{< /staticref >}}
 
-Effectively, I:
-1) Made a summary of literature and equations to be used by the team for sizing the engine. {{< staticref "uploads/documents/regen/cheatsheet.pdf" "newtab" >}}(summary visible here){{< /staticref >}}
-2) Created a Python sizing script that (given propellant properties, target thrust, and target chamber pressure) used said equations along with thermodynamics libraries to produce the innner engine geometry.
-3) Developed an iterative solver that (based on known temperature limits for safe operation of the engine) generated the geometry of cooling channels as well as solved/simulated the properties of the coolant along the engine. {{< staticref "uploads/documents/regen/solveroverview.pdf" "newtab" >}}(overview visible here){{< /staticref >}}
+Code Repository: [Here](https://github.com/iangill11/MLuSHrooM/tree/main/model)
 
-The geometry was then outputed to be directly used in the CAD file of the rocket. The main solver code can be viewed [here](https://github.com/Project-Liquid/TheRocket/blob/main/RegenSolver/hemsolver.ipynb).
-
-A core aspect of the solver is its aim to model a two-phase flow of coolant. We use our oxidizer N2O as coolant, but due to its high vapor pressure, it would likely flow in a two-phase state within the cooling channels. We aim to estimate its properties in such states using the HEM Model discussed in the overview linked above.
+I specifically worked on the development and implementation of the convolutional variational autoencoder (CVAE) and the coupled dense neural network (DNN) in PyTorch—which are summarized in the final paper—and the training of these respective models.
 
