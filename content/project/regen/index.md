@@ -43,3 +43,13 @@ The geometry was then outputed to be directly used in the CAD file of the rocket
 
 A core aspect of the solver is its aim to model a two-phase flow of coolant. We use our oxidizer N2O as coolant, but due to its high vapor pressure, it would likely flow in a two-phase state within the cooling channels. We aim to estimate its properties in such states using the HEM Model discussed in the overview linked above.
 
+*2D and 3D images of final solved-for channels and wall contours:*
+![2d](/uploads/images/regen/channel2d.png)
+![3d](/uploads/images/regen/channel3d.png)
+
+*Solved-for channels and wall contours in CAD:*
+![engine](/uploads/images/regen/engine.png)
+
+*Final printed engine:*
+![printed](/uploads/images/regen/printed.webp)
+
