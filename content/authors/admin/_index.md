@@ -18,7 +18,7 @@ status:
 #  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Interested in applied physics, engineering, space and climate sciences.
+bio: Interested in applied physics, engineering, machine learning, space and climate sciences.
 
 #interests:
 #- Artificial Intelligence
