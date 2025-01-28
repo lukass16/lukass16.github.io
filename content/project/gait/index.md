@@ -38,3 +38,5 @@ Code Repository: [Here](https://github.com/iangill11/MLuSHrooM/tree/main/model)
 
 I specifically worked on the development and implementation of the convolutional variational autoencoder (CVAE) and the coupled dense neural network (DNN) in PyTorch—which are summarized in the final paper—and the training of these respective models.
 
+We hope to continue our work and explore other multi-physics models with my specific focus being the exploration of using DeepM&Mnets.
+
