@@ -1,9 +1,10 @@
 "use client";
 
 import { useState } from "react";
-import { ProjectTag, getProjectsByTag } from "@/data/projects";
-import FilterTabs from "./FilterTabs";
+import { ProjectTag, getProjectsByTag, tagLabels } from "@/data/projects";
 import ProjectCard from "./ProjectCard";
+
+const tags: (ProjectTag | "*")[] = ["*", "ML", "DA", "SW"];
 
 export default function ProjectGrid() {
   const [activeTag, setActiveTag] = useState<ProjectTag | "*">("*");
@@ -11,7 +12,17 @@ export default function ProjectGrid() {
 
   return (
     <div>
-      <FilterTabs activeTag={activeTag} onTagChange={setActiveTag} />
+      <div className="filter-tabs">
+        {tags.map((tag) => (
+          <button
+            key={tag}
+            className={`filter-tab ${activeTag === tag ? "active" : ""}`}
+            onClick={() => setActiveTag(tag)}
+          >
+            {tag === "*" ? "All" : tag}
+          </button>
+        ))}
+      </div>
       <div className="project-grid">
         {projects.map((project) => (
           <ProjectCard key={project.slug} project={project} />
@@ -20,4 +31,3 @@ export default function ProjectGrid() {
     </div>
   );
 }
-

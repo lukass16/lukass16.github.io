@@ -28,11 +28,8 @@ export default function Navbar() {
             </Link>
           ))}
         </div>
-        <div className="navbar-actions">
-          <ThemeToggle />
-        </div>
+        <ThemeToggle />
       </div>
     </nav>
   );
 }
-

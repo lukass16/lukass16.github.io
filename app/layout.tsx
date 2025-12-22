@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { Source_Sans_3 } from "next/font/google";
+import { EB_Garamond } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import "./globals.css";
 
-const sourceSans = Source_Sans_3({
+const garamond = EB_Garamond({
   subsets: ["latin"],
-  variable: "--font-source-sans",
+  variable: "--font-garamond",
   display: "swap",
 });
 
@@ -25,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${sourceSans.variable}`}>
+      <body className={`${garamond.variable}`}>
         <div className="site-wrapper">
           <Navbar />
           <main className="main-content">{children}</main>
