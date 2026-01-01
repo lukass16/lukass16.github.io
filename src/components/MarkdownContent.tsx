@@ -13,7 +13,7 @@ export default function MarkdownContent({ content }: MarkdownContentProps) {
       <ReactMarkdown
         components={{
           img: ({ src, alt }) => {
-            if (!src) return null;
+            if (!src || typeof src !== "string") return null;
             return (
               <Image
                 src={src}
