@@ -27,6 +27,28 @@ export const tagLabels: Record<ProjectTag | "*", string> = {
 };
 
 export const projects: Project[] = [
+//   {
+//     slug: "nlse",
+//     title: "Unitary Transformations via Temporal Trapping",
+//     summary:
+//       "Exploring cross-phase modulation (XPM) in Kerr nonlinear media to achieve programmable unitary transformations of temporal pulsed modes.",
+//     tags: ["ML", "DA"],
+//     date: "2025-12-01",
+//     image: "/images/projects/nlse.png",
+//     imageCaption: "Simple Schematic of the Project",
+//     links: [
+//       {
+//         name: "Code",
+//         url: "https://github.com/lukass16/LGW-Lab-NLSE",
+//         icon: "github",
+//       },
+//     ],
+//     content: `**This is an active project**
+    
+// Research in the Logan Wright Applied Physics Lab. Exploring the use of cross-phase modulation (XPM) to produce unitary transformations of weak input pulses by learning appropriate parametrizations of strong trap pulses.
+
+// After creating an automatically differentiable 1+1D coupled Nonlinear Schrödinger Equation (NLSE) simulation am currently exploring using optimization of the trap pulse parameters to produce arbitrary unitary transformations of the arbitrary input pulses. I'm using input pulses parametrized using 16 Hermite-Gauss basis modes i.e. I'm working in a 16D computational space. In future work I plan will explore the feasibility of realizing unitary transformations within micro-ring resonators.`,
+//   },
   {
     slug: "pino",
     title: "Physics-Informed Losses for Neural Operators",
