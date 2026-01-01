@@ -13,9 +13,6 @@ const garamond = EB_Garamond({
 export const metadata: Metadata = {
   title: "Lukass Kellijs",
   description: "Personal Portfolio",
-  icons: {
-    icon: "/icon.png",
-  },
 };
 
 export default function RootLayout({
