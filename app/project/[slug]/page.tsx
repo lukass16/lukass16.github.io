@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
 import { projects, getProjectBySlug } from "@/data/projects";
-import { ArrowLeftIcon, GitHubIcon } from "@/components/Icons";
+import { ArrowLeftIcon, getIconByName } from "@/components/Icons";
 import MarkdownContent from "@/components/MarkdownContent";
 
 interface ProjectPageProps {
@@ -62,18 +62,21 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
         <div className="project-meta">
           <span className="project-date">{formatDate(project.date)}</span>
           <div className="project-links">
-            {project.links.map((link) => (
-              <a
-                key={link.name}
-                href={link.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="project-link"
-              >
-                <GitHubIcon size={16} />
-                {link.name}
-              </a>
-            ))}
+            {project.links.map((link) => {
+              const Icon = getIconByName(link.icon);
+              return (
+                <a
+                  key={link.name}
+                  href={link.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project-link"
+                >
+                  <Icon size={16} />
+                  {link.name}
+                </a>
+              );
+            })}
           </div>
         </div>
       </header>

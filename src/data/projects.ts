@@ -41,6 +41,11 @@ export const projects: Project[] = [
         url: "https://github.com/lukass16/camlab-pino",
         icon: "github",
       },
+      {
+        name: "Paper",
+        url: "/uploads/documents/pino/camlab_writeup.pdf",
+        icon: "document",
+      },
     ],
     content: `As part of research at ETH Zurich Computational Applied Mathematics Laboratory CAMLab worked on using physics-informed losses for training and fine-tuning neural operators. See short writeup [here](/uploads/documents/pino/camlab_writeup.pdf).`,
   },
@@ -57,6 +62,11 @@ export const projects: Project[] = [
         name: "Code",
         url: "https://github.com/iangill11/MLuSHrooM",
         icon: "github",
+      },
+      {
+        name: "Paper",
+        url: "/uploads/documents/gait/final.pdf",
+        icon: "document",
       },
     ],
     content: `As part of final project for the Scientific Machine Learning (S&DS 689) class at Yale University, worked on a machine learning model to more efficiently simulate plasma turbulence.
@@ -199,6 +209,11 @@ Finally, here is an image of the FC PCB, and RTU HPR 2022 team.
         url: "https://github.com/lukass16/Bark-Beetle-Detection-in-Latvia",
         icon: "github",
       },
+      {
+        name: "Paper",
+        url: "/uploads/documents/barkbeetle/paper.pdf",
+        icon: "document",
+      },
     ],
     content: `### Summary
 Throughout the 2021-2022 academic year I decided to engage in Remote Sensing research after becoming interested in the topic from a previous project. In looking for a potential research question I came upon the problem of bark beetle infestations and their early and precise detection in European forests. Looking further into the problem in the context of Latvia, I had the idea of analyzing whether a certain publicly available image dataset could be potentially used to detect infested trees with higher spatial resolution.
@@ -265,6 +280,32 @@ Here are some pictures of the FC (with some questionable soldering) and RS, as w
 
 ![team](/uploads/images/vip1/team.jpg)`,
   },
+  {
+      slug: "tdl",
+      title: "Source Attribution for RAG",
+      summary:
+        "Exploration of various methods for source attribution in RAG systems.",
+      tags: ["ML"],
+      date: "2025-10-01",
+      image: "/images/projects/tdl.png",
+      imageCaption: "Source Attribution for RAG",
+      links: [
+        {
+          name: "Code",
+          url: "https://github.com/lukass16/RAG-Attribution",
+          icon: "github",
+        },
+        {
+          name: "Paper",
+          url: "/uploads/documents/tdl/writeup.pdf",
+          icon: "document",
+        },
+      ],
+      content: `Final project for the *Trustworthy Deep Learning class (CPSC 5710)*. We explored various different approaches to perform source attribution for RAG systems i.e. identifying the most relevant informational sources used by an LLM to generate an answer in a RAG system. We implemented and evaluated six source attribution methods comparing *Shapley-based* approaches (Leave-One-Out, Monte Carlo, Permutation) with *white-box* methods (gradient, integrated gradients, attention-based) using Llama-3.2-1B.
+
+I worked on the white-box attribution methods, which leverage model internals like gradients and attention patterns for single-pass attribution. The full writeup is available [here](/uploads/documents/tdl/writeup.pdf).`
+
+  }
 ];
 
 // Sort projects by date (newest first)
