@@ -4,7 +4,7 @@ import { useState } from "react";
 import { ProjectTag, getProjectsByTag, tagLabels } from "@/data/projects";
 import ProjectCard from "./ProjectCard";
 
-const tags: (ProjectTag | "*")[] = ["*", "ML", "DA", "SW"];
+const tags: (ProjectTag | "*")[] = ["*", "ML", "DA", "EE"];
 
 export default function ProjectGrid() {
   const [activeTag, setActiveTag] = useState<ProjectTag | "*">("*");

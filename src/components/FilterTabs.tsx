@@ -7,7 +7,7 @@ interface FilterTabsProps {
   onTagChange: (tag: ProjectTag | "*") => void;
 }
 
-const tags: (ProjectTag | "*")[] = ["*", "ML", "DA", "SW", "OTHER"];
+const tags: (ProjectTag | "*")[] = ["*", "ML", "DA", "EE", "OTHER"];
 
 export default function FilterTabs({ activeTag, onTagChange }: FilterTabsProps) {
   return (

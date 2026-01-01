@@ -1,4 +1,4 @@
-export type ProjectTag = "ML" | "DA" | "SW" | "OTHER";
+export type ProjectTag = "ML" | "DA" | "EE" | "OTHER";
 
 export interface ProjectLink {
   name: string;
@@ -22,7 +22,7 @@ export const tagLabels: Record<ProjectTag | "*", string> = {
   "*": "All",
   ML: "Machine Learning / SciML",
   DA: "Research / Data Analysis",
-  SW: "Software / Electronics",
+  EE: "Electronics / Embedded Programming",
   OTHER: "Other",
 };
 
@@ -179,7 +179,7 @@ This simulation and data analysis was done in collaboration with the leader of t
     title: "Flight Computer SWIFT",
     summary:
       "Electronics programming and testing for the second rocket launch campaign of Riga Technical University rocketry team.",
-    tags: ["SW"],
+    tags: ["EE"],
     date: "2022-12-01",
     image: "/images/projects/swift.jpg",
     imageCaption: "SWIFT rocket before launch",
@@ -269,7 +269,7 @@ A special thank you goes out to my physics teacher Elza Līna Liniņa for her he
     title: "Flight Computer VIP-1",
     summary:
       "Electronics programming and testing for the rocket launch campaign of Riga Technical University rocketry team.",
-    tags: ["SW"],
+    tags: ["EE"],
     date: "2021-11-01",
     image: "/images/projects/vip-1.jpg",
     imageCaption: "VIP-1 rocket in its final stages of testing",
