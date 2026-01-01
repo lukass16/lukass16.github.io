@@ -40,9 +40,14 @@ export default function Home() {
               <span>Kellijs</span>
             </h1>
             <p className="intro-subtitle">Yale University, New Haven, CT</p>
-            <button onClick={handleShowProjects} className="projects-trigger-btn">
-              Projects →
-            </button>
+            <div className="intro-buttons">
+              <button onClick={handleShowProjects} className="projects-trigger-btn">
+                Projects →
+              </button>
+              <a href="/about" className="projects-trigger-btn">
+                CV →
+              </a>
+            </div>
           </div>
           <Image
             src={profile.avatar}
