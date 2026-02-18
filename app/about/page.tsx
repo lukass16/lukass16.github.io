@@ -117,6 +117,7 @@ export default function AboutPage() {
             <div className="cv-coursework">
               <p><strong>Graduate:</strong> S&DS 6890 Scientific Machine Learning, ENV 5940 Global Carbon Cycle (Audit), CPSC 5710 Trustworthy Deep Learning</p>
               <p><strong>Undergraduate:</strong> CPSC 4520 Deep Learning Theory and Applications, PHYS 4400 Quantum Mechanics I and II, PHYS 4500 Thermodynamics and Statistical Mechanics, PHYS 4300 Electromagnetic Fields and Optics, S&DS 2380 Probability and Bayesian Statistics, MENG 2050 Computer-Aided Engineering, MENG 1105 Mechanical Design</p>
+              <p><strong>Current:</strong> CPSC 4870 3D Spatial Modeling and Computing, ENAS 4041 Applied Numerical Methods for Differential Equations, AMTH 3640 Information Theory, S&DS 3510 Stochastic Processes</p>
             </div>
           </div>
         </div>
