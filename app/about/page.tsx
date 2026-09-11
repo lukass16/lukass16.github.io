@@ -60,7 +60,7 @@ export default function AboutPage() {
           <div className="cv-block">
             <h2>Research</h2>
             <div className="cv-item">
-              <h3>Research Engineer Intern, Human Union Data (HUD)</h3>
+              <h3>Research Engineer Intern, HUD AI</h3>
               <p className="cv-item-meta">May 2026 — August 2026 (San Francisco, USA)</p>
               <p>Research engineering on RL environments and quality assessment for robotics models and robotics data.</p>
             </div>
