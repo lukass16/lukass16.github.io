@@ -49,7 +49,7 @@ export default function AboutPage() {
             <div className="cv-item">
               <h3>Yale University</h3>
               <p className="cv-item-meta">September 2023 — May 2027 (New Haven, USA)</p>
-              <p>Applied Physics (B.S.) '27 (GPA: 3.99/4.00)</p>
+              <p>Applied Physics (B.S.) '27 (GPA: 3.98/4.00)</p>
             </div>
             <div className="cv-item">
               <h3>Engineering High School of Riga Technical University</h3>
@@ -59,6 +59,11 @@ export default function AboutPage() {
 
           <div className="cv-block">
             <h2>Research</h2>
+            <div className="cv-item">
+              <h3>Research Engineer Intern, Human Union Data (HUD)</h3>
+              <p className="cv-item-meta">May 2026 — August 2026 (San Francisco, USA)</p>
+              <p>Research engineering on RL environments and quality assessment for robotics models and robotics data.</p>
+            </div>
             <div className="cv-item">
               <h3>Logan Wright Applied Physics Laboratory, Yale University</h3>
               <p className="cv-item-meta">September 2024 — Present (New Haven, USA)</p>
@@ -89,9 +94,9 @@ export default function AboutPage() {
               <p>Largest educational space camp in Europe. Led a team of 6 international volunteers for the past 3 years—planning, organizing, and promoting ESC.</p>
             </div>
             <div className="cv-item">
-              <h3>Director of Outreach / Member at Yale Undergraduate Aerospace Association</h3>
+              <h3>Member at Yale Undergraduate Aerospace Association</h3>
               <p className="cv-item-meta">September 2023 — September 2025 (New Haven, USA)</p>
-              <p>Board member, responsible for alumni relations, speaker, and outreach events for the club. Led projects in CubeSat (Mechanical), and Liquid Rocket (Propulsion) teams.</p>
+              <p>Board member, led projects in CubeSat (Mechanical) and Liquid Rocket (Propulsion) teams.</p>
             </div>
             <div className="cv-item">
               <h3>Avionics Team Lead at Riga Technical University High Power Rocketry Team</h3>
@@ -106,7 +111,7 @@ export default function AboutPage() {
               <li>International Physics Olympiad 2022, 2023 — Bronze Medal</li>
               <li>European Physics Olympiad 2022 — Bronze Medal</li>
               <li>Latvian National Physics Olympiad 2021, 2022, 2023 — 1st place</li>
-              <li>EU Contest for Young Scientists 2022 — Biodiversity Award</li>
+              <li>EU Contest for Young Scientists 2022 — Naturalis Biodiversity Award</li>
               <li>Nordic-Baltic Physics Olympiad 2022 — Silver Medal</li>
               <li>Baltic States French Olympiad 2021 — Silver Medal</li>
             </ul>
@@ -115,9 +120,9 @@ export default function AboutPage() {
           <div className="cv-block">
             <h2>Relevant Coursework</h2>
             <div className="cv-coursework">
-              <p><strong>Graduate:</strong> S&DS 6890 Scientific Machine Learning, ENV 5940 Global Carbon Cycle (Audit), CPSC 5710 Trustworthy Deep Learning</p>
-              <p><strong>Undergraduate:</strong> CPSC 4520 Deep Learning Theory and Applications, PHYS 4400 Quantum Mechanics I and II, PHYS 4500 Thermodynamics and Statistical Mechanics, PHYS 4300 Electromagnetic Fields and Optics, S&DS 2380 Probability and Bayesian Statistics, MENG 2050 Computer-Aided Engineering, MENG 1105 Mechanical Design</p>
-              <p><strong>Current:</strong> CPSC 4870 3D Spatial Modeling and Computing, ENAS 4041 Applied Numerical Methods for Differential Equations, AMTH 3640 Information Theory, S&DS 3510 Stochastic Processes</p>
+              <p><strong>Graduate:</strong> S&DS 6890 Scientific Machine Learning, CPSC 5710 Trustworthy Deep Learning, ENV 5940 Global Carbon Cycle (Audit)</p>
+              <p><strong>Undergraduate:</strong> CPSC 4520 Deep Learning Theory and Applications, PHYS 4400 Quantum Mechanics I and II, PHYS 4500 Thermodynamics and Statistical Mechanics, PHYS 4300 Electromagnetic Fields and Optics, S&DS 3510 Stochastic Processes, AMTH 3640 Information Theory, ENAS 4041 Applied Numerical Methods for Differential Equations, CPSC 4870 3D Spatial Modeling and Computing, S&DS 2380 Probability and Bayesian Statistics, MENG 2050 Computer-Aided Engineering, MENG 1105 Mechanical Design</p>
+              <p><strong>Current:</strong> APHY 5120 AI for Applied Physics Research, CPSC 4420 Theory of Computation, APHY 4480 Solid State Physics I</p>
             </div>
           </div>
         </div>
