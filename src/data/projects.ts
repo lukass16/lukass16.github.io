@@ -50,6 +50,31 @@ export const projects: Project[] = [
 // After creating an automatically differentiable 1+1D coupled Nonlinear Schrödinger Equation (NLSE) simulation am currently exploring using optimization of the trap pulse parameters to produce arbitrary unitary transformations of the arbitrary input pulses. I'm using input pulses parametrized using 16 Hermite-Gauss basis modes i.e. I'm working in a 16D computational space. In future work I plan will explore the feasibility of realizing unitary transformations within micro-ring resonators.`,
 //   },
   {
+    slug: "assemblebench",
+    title: "AssembleBench",
+    summary:
+      "Research at HUD, a contact-rich assembly benchmark for training and evaluating VLAs",
+    tags: ["ML"],
+    date: "2026-07-31",
+    image: "/images/projects/assemblebench.png",
+    imageCaption: "pi0.5 nut threading on the NIST ATB-1 taskboard",
+    links: [
+      {
+        name: "Code",
+        url: "https://github.com/hud-evals/assemble-bench",
+        icon: "github",
+      },
+      {
+        name: "Blog",
+        url: "https://www.hud.ai/research/assemble-benchmark",
+        icon: "document",
+      },
+    ],
+    content: `As part of research at HUD developed [AssembleBench](https://github.com/hud-evals/assemble-bench), a 14-task contact-rich assembly benchmark on the NIST ATB-1 taskboard (peg insertion, gear meshing, nut threading) for evaluating and training VLAs on the DROID platform.
+
+The work also includes a 1,355-episode synthetic demonstration dataset and a Code-Gated DAgger (CG-DAgger) loop that uses scripted experts to recover from detected failures. Full writeup [here](https://www.hud.ai/research/assemble-benchmark).`,
+  },
+  {
     slug: "pino",
     title: "Physics-Informed Losses for Neural Operators",
     summary:
